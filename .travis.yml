@@ -15,4 +15,4 @@ deploy:
     secure: $HEROKU_API_KEY
   app: algo-messiahs
   on:
-  branch: main
+    all_branches: true
