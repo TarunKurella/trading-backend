@@ -8,6 +8,6 @@ public class Checking {
 
     @GetMapping("check")
     String checking(){
-        return "Backend Functional!";
+        return "Backend is functional";
     }
 }
